@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewBag.Title = "SweetAlert";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>SweetAlert</h2>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<script src="~/Scripts/jquery-3.3.1.js"></script>
+<button class="btn btn-default" id="btn1">Button 1</button>
+<button class="btn btn-default" id="btn2">Button 2</button>
+<button class="btn btn-default" id="btn3">Button 3</button>
+
+<script>
+    $('#btn1').click(function () {
+        swal("Hello modıfakır");
+    });
+</script>
+
+
+
+
+<script>
+    $('#btn2').click(function () {
+        swal("Burası Başlık", "Buda içerik");
+    });
+</script>
+
+<script>
+    $('#btn3').click(function () {
+        swal("Tebrikler!", "Ürün Eklendi", "success");
+    });
+</script>
+
+<br />
+<br />
+<br />
+<br />
+
+<h3>=><a href="https://sweetalert.js.org/guides/"> Sitesine Git</a></h3>

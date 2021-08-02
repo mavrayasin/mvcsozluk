@@ -17,6 +17,7 @@ namespace MvcProjeKampi
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                //preojenin başldığı kalsör 
             );
         }
     }
